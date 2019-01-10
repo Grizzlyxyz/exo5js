@@ -2,3 +2,6 @@
 let sentence01 = " C'est un petit pas ";
 let sentence02 = " Pour l'Homme ";
 let sentence03 = " Mais un grand pas pour l'humanité. ";
+
+let bestSentence = sentence01.trimStart() + sentence02.trim().charAt()toLowersCase();
+console.log(bestSentence)+ sentence02.substr(2).trimEnd()+sentence03.substr(0,2).toLocaleLowerCase()+sentence03.substr(2).trimEnd;
